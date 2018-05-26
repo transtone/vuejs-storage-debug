@@ -16,7 +16,7 @@ const store = new Vuex.Store({
     login
   },
   plugins: [
-    VuexORM.install(database),
+    VuexORM.install(database, { namespace: "api" }),
     vuejsStorage({
       keys: ["login"],
       namespace: "planx"

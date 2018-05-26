@@ -18,8 +18,9 @@ import { Component, Vue } from "vue-property-decorator"
 @Component
 export default class Hello extends Vue {
   login() {
-    this.$store.dispatch("Login")
-    console.log("logined")
+    this.$store.dispatch("Login").then((e) => {
+      console.log(e)
+    })
   }
   logout() {
     this.$store.commit("clearData")
