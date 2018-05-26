@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "warning",
+  "extends": "tslint-config-standard",
+  "rules": {
+    "quotemark": [false],
+    "comment-format": [false],
+    "indent": [true, "spaces", 2],
+    "class-name": false,
+    "space-before-function-paren": false,
+    "import-spacing": false,
+    "no-floating-promises": false,
+    "no-empty": false,
+    "trailing-comma": false,
+    "semicolon": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-unused-variable": false,
+    "no-consecutive-blank-lines": false
+  }
+}

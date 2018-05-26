@@ -1,0 +1,31 @@
+{
+  "name": "debug",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "register-service-worker": "^1.2.0",
+    "vue": "^2.5.16",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1",
+    "vuejs-storage": "^2.4.0",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.48",
+    "@vue/cli-plugin-babel": "^3.0.0-beta.11",
+    "@vue/cli-plugin-pwa": "^3.0.0-beta.11",
+    "@vue/cli-plugin-typescript": "^3.0.0-beta.11",
+    "@vue/cli-service": "^3.0.0-beta.11",
+    "babel-loader": "^8.0.0-beta.2",
+    "tslint-config-standard": "^7.0.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": ["> 1%", "iOS >= 7", "Android >= 4.1", "not ie <= 8"]
+}
